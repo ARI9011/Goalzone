@@ -21,8 +21,6 @@
                     <div class="logo-text">GoalZone</div>
                 </div>
                 <div class="header-controls">
-                    <button class="lang-btn active" id="btn-es" onclick="setLang('es')">ES</button>
-                    <button class="lang-btn" id="btn-en" onclick="setLang('en')">EN</button>
                     <div id="auth-area">
                         <button class="login-btn" onclick="openModal('login')" id="login-btn-text">Iniciar Sesión</button>
                         <button class="register-btn" onclick="openModal('register')">Registrarse</button>
