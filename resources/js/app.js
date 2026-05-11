@@ -20,7 +20,7 @@ function showTab(id) {
     if (tab) tab.classList.add('active');
     if (navBtn) navBtn.classList.add('active');
 
-    // --- LÓGICA DE DESBLOQUEO ADMIN ---
+    // LÓGICA DE DESBLOQUEO ADMIN 
     if (id === 'crud-admin') {
         const user = getSessionUser();
         const guard = document.getElementById('admin-guard');
@@ -108,13 +108,13 @@ function deleteMatch(id) {
     if(window.renderMatches) window.renderMatches(window.currentLeague);
 }
 
-// --- EXPOSICIÓN GLOBAL ---
+//  EXPOSICIÓN GLOBAL 
 window.showTab = showTab;
 window.refreshCurrentTab = refreshCurrentTab;
 window.addMatch = addMatch;
 window.deleteMatch = deleteMatch;
 
-// ── INIT ──
+// INIT 
 document.addEventListener('DOMContentLoaded', () => {
     const initialLang = window.lang || localStorage.getItem('gz_lang') || 'es';
     

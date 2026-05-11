@@ -1,7 +1,7 @@
 
 let currentLeague = 'pl';
 
-// ===== PARTIDOS =====
+//PARTIDOS 
 function renderMatches(league) {
     currentLeague = league;
     const filtered = (window.matches || []).filter(m => m.league === league);
@@ -52,7 +52,7 @@ function renderMatches(league) {
 
 function filterLeague(l) { renderMatches(l); }
 
-// ===== CLASIFICACIONES =====
+//  CLASIFICACIONES 
 function renderStandings(league) {
     const data = window.standings ? window.standings[league] : [];
     let rows = '';
@@ -121,7 +121,7 @@ function renderScorers(league) {
 }
 function filterScorers(l) { renderScorers(l); }
 
-// ===== UCL / MUNDIAL / STATS =====
+//  UCL / MUNDIAL / STATS 
 function renderUCL() {
     if(!window.uclGroups) return;
     let groupHtml = '';
@@ -165,7 +165,7 @@ function renderStats() {
     }
 }
 
-// ===== CRUD LIST (Panel Admin) =====
+// CRUD LIST (Panel Admin) 
 function renderCrudList() {
     const el = document.getElementById('crud-matches-list');
     if (!el || !window.matches) return;

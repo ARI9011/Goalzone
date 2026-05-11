@@ -134,7 +134,7 @@
                             <div class="legend-info">
                                 <h3 class="legend-fullname">THIERRY HENRY</h3>
                                 <div class="legend-meta-row">
-                                    <span class="legend-club arsenal-badge">⚫🔴 Arsenal</span>
+                                    <span class="legend-club arsenal-badge"> Arsenal</span>
                                     <span class="legend-years-badge">1999 – 2007</span>
                                 </div>
                                 <div class="legend-stats-mini">
@@ -146,10 +146,10 @@
                                     Considerado el mejor delantero de la historia de la Premier League, Henry revolucionó el ataque del Arsenal bajo las órdenes de Arsène Wenger. Rápido, técnico y letal de cara al gol, sus 228 tantos en la Premier League siguen siendo un referente. Fue pieza clave del invicto Arsenal de 2003-04, el legendario equipo de los "Invencibles".
                                 </p>
                                 <div class="legend-achievements">
-                                    <span class="achievement-badge">🏆 Premier League ×2</span>
-                                    <span class="achievement-badge">🥅 Pichichi PL ×4</span>
-                                    <span class="achievement-badge">🌍 Mundial 1998</span>
-                                    <span class="achievement-badge">⭐ Invencibles 04</span>
+                                    <span class="achievement-badge"> Premier League ×2</span>
+                                    <span class="achievement-badge"> Pichichi PL ×4</span>
+                                    <span class="achievement-badge"> Mundial 1998</span>
+                                    <span class="achievement-badge"> Invencibles 04</span>
                                 </div>
                             </div>
                         </div>
@@ -162,7 +162,7 @@
                             <div class="legend-info">
                                 <h3 class="legend-fullname">DIDIER DROGBA</h3>
                                 <div class="legend-meta-row">
-                                    <span class="legend-club chelsea-badge">💙 Chelsea FC</span>
+                                    <span class="legend-club chelsea-badge"> Chelsea FC</span>
                                     <span class="legend-years-badge">2004 – 2012</span>
                                 </div>
                                 <div class="legend-stats-mini">
@@ -174,10 +174,10 @@
                                     Fuerza, potencia y un instinto goleador único. Didier Drogba es sin duda el mayor ídolo de la historia del Chelsea. Marcó en cuatro finales de FA Cup y fue decisivo en la Champions de 2012, empatando en el último minuto y convirtiendo el penalti decisivo. Henry y Drogba no coincidieron en un mismo club, pero su rivalidad Arsenal-Chelsea es eterna.
                                 </p>
                                 <div class="legend-achievements">
-                                    <span class="achievement-badge">🏆 Premier League ×4</span>
-                                    <span class="achievement-badge">🏆 Champions 2012</span>
-                                    <span class="achievement-badge">🥅 Pichichi PL ×2</span>
-                                    <span class="achievement-badge">🌍 Copa África ×1</span>
+                                    <span class="achievement-badge"> Premier League ×4</span>
+                                    <span class="achievement-badge"> Champions 2012</span>
+                                    <span class="achievement-badge"> Pichichi PL ×2</span>
+                                    <span class="achievement-badge"> Copa África ×1</span>
                                 </div>
                             </div>
                         </div>
@@ -202,7 +202,7 @@
                             <div class="legend-info">
                                 <h3 class="legend-fullname">LIONEL MESSI</h3>
                                 <div class="legend-meta-row">
-                                    <span class="legend-club barca-badge">🔵🔴 FC Barcelona</span>
+                                    <span class="legend-club barca-badge"> FC Barcelona</span>
                                     <span class="legend-years-badge">2004 – 2021</span>
                                 </div>
                                 <div class="legend-stats-mini">
@@ -214,10 +214,10 @@
                                     El mejor jugador de la historia del FC Barcelona y, para muchos, de la historia del fútbol. Messi llegó a La Masia con 13 años y se convirtió en el símbolo de una era dorada. Con 474 goles en La Liga, es el máximo goleador histórico de la competición. Su magia, regate y visión de juego son irrepetibles. Compartió épica rivalidad con Cristiano Ronaldo durante más de una década.
                                 </p>
                                 <div class="legend-achievements">
-                                    <span class="achievement-badge">🏆 La Liga ×10</span>
-                                    <span class="achievement-badge">🏆 Champions ×4</span>
-                                    <span class="achievement-badge">🌍 Mundial 2022</span>
-                                    <span class="achievement-badge">⭐ Balón de Oro ×8</span>
+                                    <span class="achievement-badge"> La Liga ×10</span>
+                                    <span class="achievement-badge"> Champions ×4</span>
+                                    <span class="achievement-badge"> Mundial 2022</span>
+                                    <span class="achievement-badge"> Balón de Oro ×8</span>
                                 </div>
                             </div>
                         </div>
@@ -230,7 +230,7 @@
                             <div class="legend-info">
                                 <h3 class="legend-fullname">CRISTIANO RONALDO</h3>
                                 <div class="legend-meta-row">
-                                    <span class="legend-club rmadrid-badge">⚪ Real Madrid</span>
+                                    <span class="legend-club rmadrid-badge"> Real Madrid</span>
                                     <span class="legend-years-badge">2009 – 2018</span>
                                 </div>
                                 <div class="legend-stats-mini">
@@ -242,10 +242,10 @@
                                     El goleador más devastador que ha visto La Liga. Cristiano Ronaldo llegó al Real Madrid en 2009 y en nueve temporadas marcó 450 goles en Liga, incluyendo cinco temporadas con más de 40 goles. Su rivalidad con Messi elevó el nivel del fútbol mundial a cotas insuperables. Potente, ambicioso y con una capacidad atlética extraordinaria, es el símbolo del Madrid en la era Champions.
                                 </p>
                                 <div class="legend-achievements">
-                                    <span class="achievement-badge">🏆 La Liga ×2</span>
-                                    <span class="achievement-badge">🏆 Champions ×4</span>
-                                    <span class="achievement-badge">🥅 Pichichi ×3</span>
-                                    <span class="achievement-badge">🌍 Euro 2016</span>
+                                    <span class="achievement-badge"> La Liga ×2</span>
+                                    <span class="achievement-badge"> Champions ×4</span>
+                                    <span class="achievement-badge"> Pichichi ×3</span>
+                                    <span class="achievement-badge"> Euro 2016</span>
                                 </div>
                             </div>
                         </div>
@@ -270,7 +270,7 @@
                             <div class="legend-info">
                                 <h3 class="legend-fullname">RONALDO NAZÁRIO</h3>
                                 <div class="legend-meta-row">
-                                    <span class="legend-club inter-badge">⚫🔵 Inter Milan</span>
+                                    <span class="legend-club inter-badge"> Inter Milan</span>
                                     <span class="legend-years-badge">1997 – 2002</span>
                                 </div>
                                 <div class="legend-stats-mini">
@@ -282,10 +282,10 @@
                                     "El Fenómeno". Antes de que las lesiones frenaran su carrera, Ronaldo Nazário fue simplemente el mejor jugador del mundo. En el Inter de Milán demostró ser imparable: regate imposible, potencia y una definición perfecta. Su corte de pelo dente-de-leite en el Mundial 2002 y sus actuaciones en el Bernabéu son parte de la historia eterna del fútbol. No coincidió con Maradona en activo.
                                 </p>
                                 <div class="legend-achievements">
-                                    <span class="achievement-badge">🌍 Mundial ×2 (94,02)</span>
-                                    <span class="achievement-badge">⭐ Balón de Oro ×2</span>
-                                    <span class="achievement-badge">🏆 Copa UEFA 1998</span>
-                                    <span class="achievement-badge">🐐 El Fenómeno</span>
+                                    <span class="achievement-badge"> Mundial ×2 (94,02)</span>
+                                    <span class="achievement-badge"> Balón de Oro ×2</span>
+                                    <span class="achievement-badge"> Copa UEFA 1998</span>
+                                    <span class="achievement-badge"> El Fenómeno</span>
                                 </div>
                             </div>
                         </div>
@@ -298,7 +298,7 @@
                             <div class="legend-info">
                                 <h3 class="legend-fullname">DIEGO MARADONA</h3>
                                 <div class="legend-meta-row">
-                                    <span class="legend-club napoli-badge">🔵⚪ SSC Napoli</span>
+                                    <span class="legend-club napoli-badge"> SSC Napoli</span>
                                     <span class="legend-years-badge">1984 – 1991</span>
                                 </div>
                                 <div class="legend-stats-mini">
@@ -310,10 +310,10 @@
                                     El dios del calcio italiano. Diego Maradona convirtió al humilde Nápoli en el equipo más temido de Europa. Ganó dos Scudetti (1987 y 1990), una Copa UEFA y una Copa Italia, algo impensable antes de su llegada. Su genio individual, su zurda mágica y su liderazgo transformaron una ciudad entera. Maradona y Ronaldo Nazário no coincidieron en activo en la Serie A, pero ambos son eternos.
                                 </p>
                                 <div class="legend-achievements">
-                                    <span class="achievement-badge">🌍 Mundial 1986 🇦🇷</span>
-                                    <span class="achievement-badge">🏆 Scudetto ×2</span>
-                                    <span class="achievement-badge">🏆 Copa UEFA 1989</span>
-                                    <span class="achievement-badge">🐐 Mano de Dios</span>
+                                    <span class="achievement-badge"> Mundial 1986 🇦🇷</span>
+                                    <span class="achievement-badge"> Scudetto ×2</span>
+                                    <span class="achievement-badge"> Copa UEFA 1989</span>
+                                    <span class="achievement-badge"> Mano de Dios</span>
                                 </div>
                             </div>
                         </div>
@@ -372,42 +372,42 @@
                     <p>Diseñada con los colores azulgrana del FC Barcelona y construida con PHP + Laravel 11 + MySQL + los 4 pilares de la POO, GoalZone es también un proyecto académico que demuestra buenas prácticas de desarrollo web.</p>
                     <div class="about-features-grid">
                         <div class="about-feature">
-                            <div class="about-icon">⚽</div>
+                            <div class="about-icon"></div>
                             <div class="about-text">
                                 <h4>RESULTADOS EN VIVO</h4>
                                 <p>Partidos de las 3 ligas más grandes del mundo.</p>
                             </div>
                         </div>
                         <div class="about-feature">
-                            <div class="about-icon">🏆</div>
+                            <div class="about-icon"></div>
                             <div class="about-text">
                                 <h4>CHAMPIONS LEAGUE</h4>
                                 <p>Fase de grupos, octavos y cuartos de final.</p>
                             </div>
                         </div>
                         <div class="about-feature">
-                            <div class="about-icon">⭐</div>
+                            <div class="about-icon"></div>
                             <div class="about-text">
                                 <h4>LEYENDAS</h4>
                                 <p>Los jugadores más icónicos de cada liga con retratos ilustrados.</p>
                             </div>
                         </div>
                         <div class="about-feature">
-                            <div class="about-icon">🌍</div>
+                            <div class="about-icon"></div>
                             <div class="about-text">
                                 <h4>MUNDIAL 2026</h4>
                                 <p>Los 12 grupos con las 48 selecciones participantes.</p>
                             </div>
                         </div>
                         <div class="about-feature">
-                            <div class="about-icon">🔐</div>
+                            <div class="about-icon"></div>
                             <div class="about-text">
                                 <h4>SHA-256 + COOKIES</h4>
                                 <p>Autenticación segura con hash y sesiones con cookies.</p>
                             </div>
                         </div>
                         <div class="about-feature">
-                            <div class="about-icon">🌐</div>
+                            <div class="about-icon"></div>
                             <div class="about-text">
                                 <h4>ES / EN</h4>
                                 <p>Cambio de idioma con localStorage para recordar la preferencia.</p>
@@ -425,7 +425,7 @@
                     <div class="section-title" style="margin-top:28px;">4 PILARES POO</div>
                     <div class="poo-grid">
                         <div class="poo-card">
-                            <div class="poo-icon">🔒</div>
+                            <div class="poo-icon"></div>
                             <h4>ENCAPSULAMIENTO</h4>
                             <p>Contraseñas privadas con getters. <code>$hidden=['password_hash']</code> en el modelo User.</p>
                         </div>
@@ -435,12 +435,12 @@
                             <p><code>BaseModel → User, Match, Scorer</code><br><code>AbstractRepo → MatchRepo</code></p>
                         </div>
                         <div class="poo-card">
-                            <div class="poo-icon">🔄</div>
+                            <div class="poo-icon"></div>
                             <h4>POLIMORFISMO</h4>
                             <p><code>LeagueInterface</code> implementada por PremierLeague, LaLiga y SerieA.</p>
                         </div>
                         <div class="poo-card">
-                            <div class="poo-icon">🎭</div>
+                            <div class="poo-icon"></div>
                             <h4>ABSTRACCIÓN</h4>
                             <p>Clase abstracta <code>AbstractRepository</code> define el contrato CRUD sin implementación.</p>
                         </div>
@@ -455,7 +455,7 @@
             <div class="tab-content" id="tab-crud-admin">
                 <div id="admin-guard">
                     <div class="card" style="text-align:center;padding:48px;">
-                        <div style="font-size:52px;margin-bottom:16px;">🔐</div>
+                        <div style="font-size:52px;margin-bottom:16px;"></div>
                         <div class="section-title" style="justify-content:center;">ÁREA RESTRINGIDA</div>
                         <p style="color:rgba(245,240,232,0.55);margin-bottom:22px;">Debes iniciar sesión como <strong style="color:var(--dorado);">Administrador</strong> para gestionar partidos.</p>
                         <button class="btn-primary" style="width:auto;padding:10px 28px;" onclick="openModal('login')">Iniciar Sesión</button>
@@ -463,7 +463,7 @@
                 </div>
                 <div id="admin-content" style="display:none;">
                     <div class="admin-panel">
-                        <div class="admin-title">🛡️ PANEL DE ADMINISTRACIÓN</div>
+                        <div class="admin-title"> PANEL DE ADMINISTRACIÓN</div>
                         <div id="admin-user-info"></div>
                         <div class="cookie-info" id="cookie-info"></div>
                     </div>

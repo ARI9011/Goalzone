@@ -1,7 +1,6 @@
-// ============================================================
+
 //  GoalZone — i18n.js
 //  Sistema de internacionalización ES / EN con localStorage
-// ============================================================
 
 const translations = {
   es: {

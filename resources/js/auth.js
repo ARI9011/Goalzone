@@ -1,5 +1,5 @@
 
-// --- Helpers de Cookies ---
+// Helpers de Cookies ---
 function setCookie(name, value, days) {
     const d = new Date();
     d.setTime(d.getTime() + days * 86400000);
@@ -13,7 +13,7 @@ function deleteCookie(name) {
     document.cookie = `${name}=;expires=Thu, 01 Jan 1970 00:00:00 UTC;path=/;SameSite=Strict`;
 }
 
-// --- 2. Función SHA-256 ---
+//  Función SHA-256 
 if (typeof window.sha256 === 'undefined') {
     window.sha256 = async function(message) {
         const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(message));
@@ -21,7 +21,7 @@ if (typeof window.sha256 === 'undefined') {
     };
 }
 
-// --- 3. FUNCIONES DE MODALES (Lo que faltaba) ---
+//  FUNCIONES DE MODALES (Lo que faltaba) 
 function openModal(tab = 'login') {
     const modal = document.getElementById('auth-modal');
     if (modal) {
@@ -51,7 +51,7 @@ function switchModalTab(tab) {
     if (regTab) regTab.classList.toggle('active', tab === 'register');
 }
 
-// --- 4. ACCIONES DE BASE DE DATOS ---
+// ACCIONES DE BASE DE DATOS 
 async function doLogin() {
     const username = document.getElementById('login-user').value.trim();
     const password = document.getElementById('login-pass').value;
@@ -150,7 +150,7 @@ function updateAuthUI() {
     }
 }
 
-// --- 6. INICIALIZACIÓN ---
+// INICIALIZACIÓN 
 document.addEventListener('DOMContentLoaded', () => {
     updateAuthUI();
 });
