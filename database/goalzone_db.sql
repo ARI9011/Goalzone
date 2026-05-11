@@ -1,21 +1,8 @@
--- phpMyAdmin SQL Dump
--- version 5.2.1
--- https://www.phpmyadmin.net/
---
--- Servidor: 127.0.0.1:3306
--- Tiempo de generación: 22-04-2026 a las 05:06:09
--- Versión del servidor: 9.1.0
--- Versión de PHP: 8.3.14
+
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
-
-
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
 
 --
 -- Base de datos: `goalzone_db`
@@ -413,13 +400,6 @@ DROP TABLE IF EXISTS `v_top_scorers`;
 DROP VIEW IF EXISTS `v_top_scorers`;
 CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `v_top_scorers`  AS SELECT rank()  (PARTITION BY `scorers`.`league` ORDER BY `scorers`.`goals` desc ) AS `OVER` FROM `scorers` WHERE (`scorers`.`season` = '2024/25') ORDER BY `scorers`.`league` ASC, `scorers`.`goals` DESC ;
 
---
--- Restricciones para tablas volcadas
---
-
---
--- Filtros para la tabla `matches`
---
 ALTER TABLE `matches`
   ADD CONSTRAINT `fk_match_user` FOREIGN KEY (`created_by`) REFERENCES `users` (`id`) ON DELETE SET NULL;
 
@@ -430,6 +410,3 @@ ALTER TABLE `sessions`
   ADD CONSTRAINT `fk_session_user` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE;
 COMMIT;
 
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
