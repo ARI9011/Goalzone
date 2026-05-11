@@ -14,7 +14,7 @@ function renderMatches(league) {
 
         const statusHtml = {
             fin:  `<span class="match-status status-fin">FINALIZADO</span>`,
-            live: `<span class="match-status status-live">🔴 EN VIVO</span>`,
+            live: `<span class="match-status status-live"> EN VIVO</span>`,
             next: `<span class="match-status status-next">PRÓXIMO</span>`,
         }[m.status] || '';
 

@@ -67,6 +67,7 @@ const standings = {
   ],
 };
 
+
 // Goleadores
 const scorers = {
   pl: [

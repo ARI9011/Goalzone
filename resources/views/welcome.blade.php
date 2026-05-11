@@ -464,6 +464,7 @@
                 <div id="admin-content" style="display:none;">
                     <div class="admin-panel">
                         <div class="admin-title"> PANEL DE ADMINISTRACIÓN</div>
+                        <button class="btn-pdf" id="btn-descargar-pdf">⬇ Descargar PDF</button>
                         <div id="admin-user-info"></div>
                         <div class="cookie-info" id="cookie-info"></div>
                     </div>
@@ -568,6 +569,131 @@
 
         </div>
     </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.8.2/jspdf.plugin.autotable.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            document.getElementById('btn-descargar-pdf').addEventListener('click', function() {
+                const {
+                    jsPDF
+                } = window.jspdf;
+                const doc = new jsPDF();
+
+                doc.setFillColor(0, 20, 40);
+                doc.rect(0, 0, 210, 30, 'F');
+                doc.setTextColor(212, 175, 55);
+                doc.setFontSize(18);
+                doc.setFont('helvetica', 'bold');
+                doc.text('GZ  GOALZONE', 14, 13);
+                doc.setFontSize(9);
+                doc.setTextColor(180, 180, 180);
+                doc.text('Gestión de Partidos — CRUD', 14, 21);
+                const fecha = new Date().toLocaleDateString('es-ES', {
+                    day: '2-digit',
+                    month: '2-digit',
+                    year: 'numeric',
+                    hour: '2-digit',
+                    minute: '2-digit'
+                });
+                doc.text('Generado: ' + fecha, 140, 21);
+
+                const filas = [];
+                document.querySelectorAll('#crud-matches-list table tbody tr').forEach(function(tr) {
+                    const celdas = tr.querySelectorAll('td');
+                    if (celdas.length >= 7) {
+                        filas.push([
+                            celdas[0]?.innerText.trim(),
+                            celdas[1]?.innerText.trim(),
+                            celdas[2]?.innerText.trim(),
+                            '–',
+                            celdas[3]?.innerText.trim(),
+                            celdas[4]?.innerText.trim(),
+                            celdas[5]?.innerText.trim(),
+                            celdas[6]?.innerText.trim(),
+                        ]);
+                    }
+                });
+
+                doc.autoTable({
+                    startY: 35,
+                    head: [
+                        ['ID', 'LOCAL', 'L', '–', 'V', 'VISITANTE', 'LIGA', 'ESTADO']
+                    ],
+                    body: filas,
+                    theme: 'grid',
+                    headStyles: {
+                        fillColor: [0, 20, 40],
+                        textColor: [212, 175, 55],
+                        fontStyle: 'bold',
+                        fontSize: 9,
+                        lineColor: [212, 175, 55],
+                        lineWidth: 0.5,
+                    },
+                    bodyStyles: {
+                        fillColor: [5, 25, 48],
+                        textColor: [220, 220, 220],
+                        fontSize: 8.5,
+                    },
+                    alternateRowStyles: {
+                        fillColor: [10, 30, 50]
+                    },
+                    columnStyles: {
+                        0: {
+                            halign: 'center',
+                            cellWidth: 12
+                        },
+                        1: {
+                            cellWidth: 40
+                        },
+                        2: {
+                            halign: 'center',
+                            cellWidth: 12
+                        },
+                        3: {
+                            halign: 'center',
+                            cellWidth: 8
+                        },
+                        4: {
+                            halign: 'center',
+                            cellWidth: 12
+                        },
+                        5: {
+                            cellWidth: 40
+                        },
+                        6: {
+                            halign: 'center',
+                            cellWidth: 16
+                        },
+                        7: {
+                            halign: 'center',
+                            cellWidth: 20
+                        },
+                    },
+                    didParseCell: function(data) {
+                        if (data.section === 'body' && data.column.index === 7) {
+                            const val = data.cell.raw;
+                            if (val === 'LIVE' || val === 'live') data.cell.styles.textColor = [231, 76, 60];
+                            else if (val === 'NEXT' || val === 'next') data.cell.styles.textColor = [41, 128, 185];
+                            else data.cell.styles.textColor = [150, 150, 150];
+                        }
+                    },
+                    margin: {
+                        left: 14,
+                        right: 14
+                    },
+                });
+
+                const pageH = doc.internal.pageSize.height;
+                doc.setFillColor(0, 20, 40);
+                doc.rect(0, pageH - 12, 210, 12, 'F');
+                doc.setTextColor(100, 100, 100);
+                doc.setFontSize(7);
+                doc.text('GoalZone © 2025 — Premier League · La Liga · Serie A', 14, pageH - 4);
+
+                doc.save('goalzone_partidos.pdf');
+            });
+        });
+    </script>
 
 </body>
 

@@ -81,10 +81,10 @@ async function doLogin() {
             setCookie('gz_session', btoa(JSON.stringify(userPayload)), 1);
             location.reload(); 
         } else {
-            if(errEl) errEl.textContent = "❌ " + (data.message || "Credenciales incorrectas");
+            if(errEl) errEl.textContent = " " + (data.message || "Credenciales incorrectas");
         }
     } catch (e) {
-        if(errEl) errEl.textContent = "❌ Error de conexión.";
+        if(errEl) errEl.textContent = " Error de conexión.";
     }
 }
 
@@ -116,13 +116,13 @@ async function doRegister() {
         const data = await response.json();
 
         if (response.ok && data.status === 'ok') {
-            if(okEl) okEl.textContent = "✅ ¡Registrado con éxito!";
+            if(okEl) okEl.textContent = " ¡Registrado con éxito!";
             setTimeout(() => { location.reload(); }, 1500);
         } else {
-            if(errEl) errEl.textContent = "❌ Error: " + (data.errors?.username || "Usuario ya existe");
+            if(errEl) errEl.textContent = " Error: " + (data.errors?.username || "Usuario ya existe");
         }
     } catch (e) {
-        if(errEl) errEl.textContent = "❌ Error de comunicación.";
+        if(errEl) errEl.textContent = " Error de comunicación.";
     }
 }
 
